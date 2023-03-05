@@ -8,7 +8,7 @@
         "php",
         "sdk",
         "nequi",
-        "!dale",
+        "dale",
         "pagos",
         "online"
     ],

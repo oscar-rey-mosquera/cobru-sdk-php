@@ -1,0 +1,6 @@
+.env
+phpunit.xml
+composer.phar
+vendor
+.phpunit.result.cache
+.idea

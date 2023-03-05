@@ -1,0 +1,33 @@
+{
+    "name": "oscar-rey/cobru-sdk",
+    "description": "sdk cobru para php",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "cobru",
+        "php",
+        "sdk",
+        "nequi",
+        "!dale",
+        "pagos",
+        "online"
+    ],
+    "autoload": {
+        "psr-4": {
+            "CobruSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "oscar-rey"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^1.22"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}

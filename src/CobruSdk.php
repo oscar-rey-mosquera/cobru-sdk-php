@@ -107,7 +107,7 @@ class CobruSdk
     }
 
     public function getCurrentCobruCheckoutUrl() {
-        return $this->isProduction ? self::PRODUCTION_URL : self::CHECKOUT_PRODUCTION_URL;
+        return $this->isProduction ? self::PRODUCTION_URL : self::DEVELOPMENT_URL;
     }
 
     public function auth() {
